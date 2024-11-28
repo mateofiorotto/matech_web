@@ -1,0 +1,651 @@
+/* GENERALES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+}
+
+i span {
+  font-size: 0;
+}
+
+section, #degradado {
+padding: 3em 0;
+}
+
+.azul-osc {
+  color: #213b7d !important;
+}
+
+.azul-osc-borde {
+  border: 1px solid #213b7d !important;
+}
+
+h2 {
+font-weight: bold;
+color: #213b7d;
+font-size: 3em;
+}
+
+h3, #home .pastilla-item h4 {
+font-size: 2em;
+color: #213b7d;
+}
+
+p {
+font-size: 1.4em;
+text-align: justify;
+text-justify: inter-word;
+hyphens: auto;
+}
+
+.p-sub {
+font-size: 2.25em;
+}
+
+h1 {
+  font-size: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* HEADER + NAV*/
+#logo-matech{
+  background-image: url("../elementos-graficos/otros/logo-matech.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 82px;
+  height: 64px;
+  font-size: 0 !important;
+  display: flex;
+  margin-left: 10px;
+}
+
+#barra-nav,#header {
+  background-color: #213b7d !important;
+}
+
+#logo-matech, .navbar-nav {
+padding: 0 1em;
+}
+
+#barra-nav a {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+#barra-nav li {
+  margin: 10px;
+}
+
+nav li i {
+  font-size: 1.2em;
+}
+
+#boton-navbar-toggle {
+  border: none;
+}
+
+#boton-navbar-toggle:focus {
+  box-shadow: 0 0 0 2px white !important;
+}
+
+#icono-navbar-toggle {
+  color: white !important;
+  border-color: white !important;
+  font-size: 1.5em;
+}
+
+#icono-navbar-toggle span {
+  font-size: 0;
+}
+
+#boton-buscador {
+  color: #213b7d !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+#boton-precios-filtrar {
+  background-color: white !important;
+  color: #213b7d;
+}
+
+#boton-precios-filtrar:hover {
+  background-color: #7dbce3 !important;
+}
+
+#boton-buscador:hover {
+  background-color: transparent !important;
+  color: #7dbce3 !important;
+}
+
+#boton-buscador i {
+  font-size: 1.3em;
+}
+
+/*FOOTER*/
+footer {
+  background-color:#213b7d;
+  color: white;
+}
+
+#logo-footer {
+  background-image: url("../elementos-graficos/otros/logo-footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 122px;
+  font-size: 0 !important;
+  display: flex;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-size: 2em;
+  color: white !important;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+.links-footer li {
+  margin-top: 1em;
+}
+
+#frase-footer {
+  font-size: 1.4em;
+}
+
+.redes li {
+  margin-right: 1.5em !important;
+}
+
+.redes li a{
+  font-size: 2em;
+}
+
+.footer-redes {
+  text-align: center;
+}
+
+.redes div {
+  display: flex;
+  gap: 4em;
+}
+
+.redes span {
+  font-size: 0 !important;
+}
+
+.redes i, .links-footer a, #mail-footer {
+  font-size: 1.2em;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.redes i:hover, .links-footer a:hover, #barra-nav a:hover, #mail-footer:hover {
+  color: #7dbce3;
+}
+
+footer p {
+font-size: 1em;
+text-align: start;
+hyphens: none;
+}
+
+/*HOME*/
+#home {
+  padding: 0 !important;
+}
+
+/*BANNER - HOME*/
+#banner-principal {
+height: 90vh;
+}
+
+#banner-principal h2 {
+color: #213b7d;
+font-weight: bold;
+font-size: 2.5em;
+border-bottom: 4px solid #213b7d;
+}
+
+#banner-principal h2 span {
+font-size: 1.5em;
+display: block;
+}
+
+#banner-principal p {
+font-size: 1.6em;
+color:#213b7d;
+hyphens: none;
+text-align: center;
+}
+
+#degradado-banner, .degradado {
+background: rgb(172,203,238);
+background: linear-gradient(90deg, rgba(172,203,238,1) 0%, rgba(231,240,253,1) 100%);
+}
+
+/*NOSOTROS HOME*/
+#home-nosotros img {
+  width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/*OFRECEMOS - HOME*/
+
+.vineta {
+display: block !important;
+}
+
+.vineta i {
+margin-right: 0.5em;
+}
+
+.vineta span, nav li i span {
+font-size: 0;
+}
+
+/*BENEFICIOS - HOME*/
+.icono-titulo, #beneficios h3 {
+  display: block;
+  text-align: center;
+}
+.icono-titulo {
+  font-size: 1.2em;
+  margin-bottom: 0.25em;
+}
+
+.icono-titulo span {
+  font-size: 0
+}
+
+/*PRODS X PRECIO HOME */
+.ver-mas-btn {
+  text-decoration: none;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  background-color: #213b7d;
+  color: white;
+  padding: 1em;
+  margin: 0.5em auto;
+  display: inline-block
+}
+
+#productos-baratos {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.ver-mas-btn i {
+  margin-left: 0.5em;
+}
+
+#home-productos {
+  padding-top: 0;
+}
+
+/*PRODUCTOS*/
+.pastilla-item h4 {
+  text-decoration: none !important;
+  color: #213b7d;
+}
+
+.sin-filtro {
+  border-bottom: 2px solid white !important;
+}
+
+.pastilla-item p {
+  hyphens: none;
+  text-align: left;
+}
+
+.precio, .precio i {
+  color: rgb(69, 173, 69) !important;
+}
+
+.agregar-carrito, .filtrar-categorias, .filtrar-marcas, .filtrar-precios, .ver-detalles {
+  text-decoration: none;
+  padding: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.agregar-carrito {
+  border: none;
+}
+
+.cantidad {
+  color: #213b7d;
+}
+
+.agregar-carrito, .filtrar-categorias, .filtrar-marcas, .filtrar-precios {
+  background-color: #213b7d;
+  color: white !important;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.desplegable {
+  background-color: #213b7d;
+}
+
+.desplegable li a {
+  color:white !important;
+  font-size: 1.2em;
+}
+
+input.input-min.dropdown-item, input.input-max.dropdown-item  {
+  background-color: white !important;
+  transition: 0.2s ease-in-out all;
+}
+
+input.input-min.dropdown-item:focus, input.input-max.dropdown-item:focus  {
+  outline: 3px solid #7dbce3 !important;
+}
+
+.desplegable li a:hover {
+  background-color: #7dbce3;
+  color: white;
+}
+
+.ver-detalles {
+  border: 1px solid #213b7d;
+  background-color: aliceblue;
+  color:#213b7d;
+  font-weight: bold;
+}
+
+.agregar-carrito:hover, .filtrar-categorias:hover, .filtrar-marcas:hover, .filtrar-precios:hover {
+  background-color: #7dbce3;
+}
+
+.ver-detalles:hover {
+  background-color: rgb(211, 217, 222);
+}
+
+#detalle-producto p, #detalle-marca p {
+  text-align: left;
+  hyphens: none;
+}
+
+.componente-de-la-marca h4 {
+  font-size: 2em;
+}
+
+.info-detalle {
+  white-space: normal !important; 
+  word-wrap: break-word !important;
+}
+
+#detalle-producto i, #detalle-producto strong, #detalle-marca i, #detalle-marca strong {
+  color: #213b7d;
+}
+
+#detalle-producto span, #detalle-marca span {
+  font-size: 0;
+}
+
+.btn-cerrar {
+  border: none;
+  color: #213b7d;
+  font-size: 2em;
+  background: transparent !important;
+  transition: 0.2s ease-in-out all;
+}
+
+.btn-cerrar:hover {
+  color: #7dbce3;
+}
+
+.btn-filtros {
+  background-color: #213b7d !important;
+  font-weight: bold;
+  transition: 0.2s ease-in-out all;
+  padding: 1em 2em;
+  color: white;
+}
+
+.btn-orden {
+  background-color: aliceblue !important;
+  border: 1px solid #213b7d !important;
+  color: #213b7d;
+  padding: 0.5em !important;
+ }
+
+ .btn-orden i {
+  vertical-align: middle;
+ }
+
+ .btn-orden:hover {
+  background-color: rgb(211, 217, 222) !important;
+  color: #213b7d !important;
+ }
+/*AYUDA*/
+label {
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  font-size: 1.5em;
+}
+
+form div {
+  margin-top: 1em !important;
+}
+
+form input, form select, form textarea {
+  border-color:#7dbce3 !important;
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  background-color: #213b7d !important;
+  font-weight: bold !important;
+  padding: 1em 2em !important;
+  font-size: 1.25em !important;
+  transition: all 0.3s ease-in-out !important;
+  text-transform: uppercase;
+  border: none !important;
+}
+
+form button:hover {
+  background-color: #7dbce3 !important;
+}
+
+#rta-seccion span {
+  color:#213b7d !important;
+}
+
+#rta-seccion p, #rta-seccion h3, #rta-seccion span {
+  hyphens: none;
+  text-align: left;
+}
+
+/*ALUMNO*/
+
+#alumno img {
+width: 250px;
+}
+
+#alumno strong {
+color:#213b7d;
+}
+
+#alumno .redes {
+gap: 2em;
+}
+
+#alumno .redes i {
+color: #213b7d !important;
+}
+
+#alumno .redes i:hover {
+color:#7dbce3 !important;
+}
+
+/*ERROR 404*/
+#error-404 {
+  padding: 3em;
+}
+
+#error-404 p {
+color: #213b7d;
+font-size: 1.3em;
+}
+
+#error-404-icono {
+font-size: 24em !important;
+color:#213b7d;
+display: block;
+}
+
+.volver {
+font-weight: bold;
+color: #213b7d;
+transition: all 0.3s ease-in-out;
+font-size: 1.75em;
+}
+
+.volver:hover {
+color: #7dbce3;
+}
+
+/*ADMIN*/
+
+#lista-dashboard {
+  font-size: 1.5em;
+}
+
+#lista-dashboard a {
+  text-decoration: none;
+  transition: 0.2s ease-in-out all;
+}
+
+#lista-dashboard a:hover {
+  color:#213b7d;
+}
+
+.administrar-desplegable, .secciones-desplegable {
+  background-color: #213b7d !important;
+  border: 1px solid #7dbce3;
+}
+
+.etiquetas-admin {
+  font-size: 0.75em !important;
+}
+
+th {
+  width: 5%;
+}
+
+.th-acc {
+  width: 0.1%;
+}
+
+.td-desc {
+  width: 100%;
+ }
+
+ /*CARRITO*/
+ .producto-en-carrito, .carrito-header {
+  border-bottom: 1px solid #7dbce3 !important;
+ }
+
+.cantidad-input {
+  border: 1px solid #213b7d;
+}
+
+.cantidad-input:focus {
+  outline: 1px solid #7dbce3;
+}
+
+.borrar-del-carrito, .vaciar-carrito {
+  transition: 0.3s ease-in-out all;
+  border: none;
+  background-color: red !important;
+  color: white;
+}
+
+.borrar-del-carrito{
+  padding: 0.3em 0.5em !important;
+}
+
+.vaciar-carrito, .recargar-cantidades {
+  padding: 1em !important;
+}
+
+.borrar-del-carrito:hover, .vaciar-carrito:hover {
+  background-color: rgb(111, 20, 20) !important;
+  color: white;
+}
+
+.agrega-aca {
+  color:#213b7d;
+  font-weight: bold;
+}
+
+.recargar-cantidades {
+  background-color: #7dbce3;
+  color: white;
+}
+
+.recargar-cantidades:hover {
+  background-color: #213b7d;
+  color: white;
+}
+
+#carrito form button {
+  background-color: #213b7d !important;
+  font-weight: bold !important;
+  padding: 1em !important;
+  font-size: 1em !important;
+  transition: all 0.3s ease-in-out !important;
+  text-transform: none;
+  border: none !important;
+}
+
+#carrito form button:hover {
+  background-color: #7dbce3 !important;
+}
+
+#carrito .boton-deshabilitado {
+  background-color: grey !important;
+  cursor: default;
+  border: none;
+}
+
+#carrito .boton-deshabilitado:hover {
+  background-color: grey !important;
+}
+
+.proceder-al-pago:hover {
+  background-color: #7dbce3;
+  border: 1px solid #7dbce3;
+}
+
+@media screen and (max-width: 991px) { 
+  .desplegable {
+    width: 75%;
+  }
+}

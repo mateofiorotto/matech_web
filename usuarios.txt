@@ -1,0 +1,15 @@
+SUPERADMIN:
+usuario: mateo_fiorotto
+contraseña: mateito123
+
+ADMIN
+usuario: jorge_perez
+contraseña: jorge123
+
+USUARIO 1:
+usuario: araceliortiz
+contraseña: araceli04
+
+USUARIO 2:
+usuario: lucasrodriguez
+contraseña: luquitas33
