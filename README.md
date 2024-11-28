@@ -1,7 +1,7 @@
 # Matech WEB
 
 ### ENG
-This is a pure PHP and SQL e-commerce project that includes the following features:
+This is a pure **PHP and SQL** e-commerce project developed as part of a university assignment. The project is written in Spanish and includes the following features:
 
 - Login system for admins (they can access to CRUD) and users
 - Shopping cart and purchases (doesn't include pay methods, it's only a simulation).
@@ -15,7 +15,7 @@ This is a pure PHP and SQL e-commerce project that includes the following featur
 - Forms
 
 ### ESP
-Este es un proyecto de comercio electrónico desarrollado en PHP puro y SQL, que incluye las siguientes características:
+Este es un proyecto de comercio electrónico desarrollado en **PHP puro y SQL** siendo parte de un proyecto de la facultad. Incluye las siguientes características:
 
 - Sistema de inicio de sesión para administradores (con acceso a CRUD) y usuarios
 - Carrito de compras y simulación de compras (no incluye métodos de pago, es solo una simulación)
