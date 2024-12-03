@@ -1,5 +1,7 @@
 # Matech WEB
 
+## This project is in SPANISH, because is a exam for the university
+
 ### ENG
 This is a pure **PHP and SQL** e-commerce project developed as part of a university assignment. The project is written in Spanish and includes the following features:
 
